@@ -16,10 +16,15 @@ struct CoinManager {
     var LastLookedupCurrency:CoinData?
 
     let cryptoBaseUrl = "https://rest.coinapi.io/v1/exchangerate"
-    let coinAPIKey = "A16326B3-B011-4E22-86F3-A24C3FC6F9D7"
+    var coinAPIKey:String? {
+        guard let infoDictionary: [String: Any] = Bundle.main.infoDictionary else { return "infoDictionary not found" }
+        guard let mySecretApiKey: String = infoDictionary["CoinAPIKey"] as? String else { return "CoinAPIKey does not exist in infoDictionary" }
+        print(mySecretApiKey)
+        return mySecretApiKey
+    }
     var cryptoName = "BTC"
     var moneyCurrencyName = "USD"
-    var finalUrl: URL? {return URL(string: "\(cryptoBaseUrl)/\(cryptoName)/\(moneyCurrencyName)?apikey=\(coinAPIKey)")}
+    var finalUrl: URL? {return URL(string: "\(cryptoBaseUrl)/\(cryptoName)/\(moneyCurrencyName)?apikey=\(coinAPIKey ?? "not found")")}
 
     let currencyArray = ["AUD", "BRL","CAD","CNY","DKK","EUR","GBP","HKD","IDR","ILS","INR","JPY","MXN","NOK","NZD","PLN","RON","RUB","SEK","SGD","USD","ZAR"]
     let cryptoArray = ["BTC","ETC","DOGE"]
