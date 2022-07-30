@@ -11,10 +11,12 @@
 		E412C7C22895099F001D3012 /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E412C7C02895099F001D3012 /* CoinManager.swift */; };
 		E412C7C428950DA3001D3012 /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E412C7C328950DA3001D3012 /* CoinData.swift */; };
 		E412C7C528950DA3001D3012 /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E412C7C328950DA3001D3012 /* CoinData.swift */; };
+		E412C7C728951054001D3012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E412C7C628951054001D3012 /* Main.storyboard */; };
+		E412C7C828951054001D3012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E412C7C628951054001D3012 /* Main.storyboard */; };
+		E412C7C928951054001D3012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E412C7C628951054001D3012 /* Main.storyboard */; };
 		E45F3DC2288F0C6A00D503E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F3DC1288F0C6A00D503E6 /* AppDelegate.swift */; };
 		E45F3DC4288F0C6A00D503E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F3DC3288F0C6A00D503E6 /* SceneDelegate.swift */; };
 		E45F3DC6288F0C6A00D503E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F3DC5288F0C6A00D503E6 /* ViewController.swift */; };
-		E45F3DC9288F0C6A00D503E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45F3DC7288F0C6A00D503E6 /* Main.storyboard */; };
 		E45F3DCB288F0C6B00D503E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45F3DCA288F0C6B00D503E6 /* Assets.xcassets */; };
 		E45F3DCE288F0C6B00D503E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45F3DCC288F0C6B00D503E6 /* LaunchScreen.storyboard */; };
 		E45F3DD9288F0C6C00D503E6 /* CryptoCurrencyTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F3DD8288F0C6C00D503E6 /* CryptoCurrencyTrackerTests.swift */; };
@@ -42,11 +44,11 @@
 /* Begin PBXFileReference section */
 		E412C7C02895099F001D3012 /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
 		E412C7C328950DA3001D3012 /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+		E412C7C628951054001D3012 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E45F3DBE288F0C6A00D503E6 /* CryptoCurrencyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoCurrencyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E45F3DC1288F0C6A00D503E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E45F3DC3288F0C6A00D503E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E45F3DC5288F0C6A00D503E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E45F3DC8288F0C6A00D503E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E45F3DCA288F0C6B00D503E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E45F3DCD288F0C6B00D503E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E45F3DCF288F0C6B00D503E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -93,7 +95,7 @@
 		E412C7BE28950959001D3012 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E45F3DC7288F0C6A00D503E6 /* Main.storyboard */,
+				E412C7C628951054001D3012 /* Main.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -265,7 +267,7 @@
 			files = (
 				E45F3DCE288F0C6B00D503E6 /* LaunchScreen.storyboard in Resources */,
 				E45F3DCB288F0C6B00D503E6 /* Assets.xcassets in Resources */,
-				E45F3DC9288F0C6A00D503E6 /* Main.storyboard in Resources */,
+				E412C7C728951054001D3012 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E412C7C828951054001D3012 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E412C7C928951054001D3012 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,14 +337,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E45F3DC7288F0C6A00D503E6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E45F3DC8288F0C6A00D503E6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E45F3DCC288F0C6B00D503E6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
