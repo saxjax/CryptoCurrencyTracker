@@ -16,7 +16,7 @@ struct CoinManager {
     var LastLookedupCurrency:CoinData?
 
     let cryptoBaseUrl = "https://rest.coinapi.io/v1/exchangerate"
-    let coinAPIKey = "A16326B3-B011-4E22-86F3-A24C3FC6F9D7"
+    let coinAPIKey = ""
     var cryptoName = "BTC"
     var moneyCurrencyName = "USD"
     var finalUrl: URL? {return URL(string: "\(cryptoBaseUrl)/\(cryptoName)/\(moneyCurrencyName)?apikey=\(coinAPIKey)")}
