@@ -45,6 +45,7 @@
 		E412C7C02895099F001D3012 /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
 		E412C7C328950DA3001D3012 /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
 		E412C7C628951054001D3012 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E412C7CA2895257C001D3012 /* secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = secrets.xcconfig; sourceTree = "<group>"; };
 		E45F3DBE288F0C6A00D503E6 /* CryptoCurrencyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoCurrencyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E45F3DC1288F0C6A00D503E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E45F3DC3288F0C6A00D503E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +113,7 @@
 		E45F3DB5288F0C6A00D503E6 = {
 			isa = PBXGroup;
 			children = (
+				E412C7CA2895257C001D3012 /* secrets.xcconfig */,
 				E45F3DC0288F0C6A00D503E6 /* CryptoCurrencyTracker */,
 				E45F3DD7288F0C6C00D503E6 /* CryptoCurrencyTrackerTests */,
 				E45F3DE1288F0C6C00D503E6 /* CryptoCurrencyTrackerUITests */,
@@ -350,6 +352,7 @@
 /* Begin XCBuildConfiguration section */
 		E45F3DE6288F0C6C00D503E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E412C7CA2895257C001D3012 /* secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -410,6 +413,7 @@
 		};
 		E45F3DE7288F0C6C00D503E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E412C7CA2895257C001D3012 /* secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
