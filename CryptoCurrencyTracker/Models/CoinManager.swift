@@ -22,6 +22,7 @@ struct CoinManager {
         print(mySecretApiKey)
         return mySecretApiKey
     }
+
     var cryptoName = "BTC"
     var moneyCurrencyName = "USD"
     var finalUrl: URL? {return URL(string: "\(cryptoBaseUrl)/\(cryptoName)/\(moneyCurrencyName)?apikey=\(coinAPIKey ?? "not found")")}
